@@ -1,0 +1,134 @@
+{
+  "formatted_address": "2868 126th Ave NW, Minneapolis, MN 55448, USA",
+  "formatted_phone_number": "(612) 512-9197",
+  "name": "Black Cat Alchemy Painting, LLC",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 1,
+          "time": "1700"
+        },
+        "open": {
+          "day": 1,
+          "time": "0700"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "1700"
+        },
+        "open": {
+          "day": 2,
+          "time": "0700"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1700"
+        },
+        "open": {
+          "day": 3,
+          "time": "0700"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1700"
+        },
+        "open": {
+          "day": 4,
+          "time": "0700"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1700"
+        },
+        "open": {
+          "day": 5,
+          "time": "0700"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 7:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Tuesday: 7:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Wednesday: 7:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Thursday: 7:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Friday: 7:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "rating": 5,
+  "reviews": [
+    {
+      "author_name": "Serein Cisneros",
+      "author_url": "https://www.google.com/maps/contrib/116274091757973380371/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVBp7jgeQQHtp47fNGdiglZdlL_zAevzOPhalTNmIkMO0oG5yyQ=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "Service was AMAZING! I hired them to paint my new salon suite. Communication was top tier. They color matched to my specifications beautifully. Scheduling was very flexible and they were able to work around some unforseen hiccups on my end.  It was over all very well done with care and love and I absolutely will be recommending them out for future projects!",
+      "time": 1779592243,
+      "translated": false
+    },
+    {
+      "author_name": "Greta Louise",
+      "author_url": "https://www.google.com/maps/contrib/114947593311391644431/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWxuDxHzNs-xQuGv50pfFnnS1dhrhL6wRshDbcKpr64x5UnX7g=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "Bridgette and Skylie painted my bedroom and it looks beautiful! They showed up on time, they were quick, clean, detailed and reasonably priced. I highly recommend them to anyone who may need painting done in their home! 5 stars all the way!!",
+      "time": 1778963037,
+      "translated": false
+    },
+    {
+      "author_name": "LanaIwaskewycz",
+      "author_url": "https://www.google.com/maps/contrib/105254664502603332535/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWVQ5YwfusIfDC0BCnhwGQqafBgnzgIs7mjOVGFcRaIvG2_hB0=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "4 weeks ago",
+      "text": "Friendly and professional service! Everything looks great.",
+      "time": 1781276517,
+      "translated": false
+    },
+    {
+      "author_name": "Max Terry",
+      "author_url": "https://www.google.com/maps/contrib/112392997353034683283/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXgYukZwV54GJfa5oU1smK07ZTJ0YFHuQGVfxDfIVxEmgyt3DC5=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "Love the work they did for me! Only issue is I couldn\u2019t give them 6 stars!",
+      "time": 1779582615,
+      "translated": false
+    },
+    {
+      "author_name": "Jon Eisel",
+      "author_url": "https://www.google.com/maps/contrib/116877623832532666463/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLtoEXcmECv7Rpa1hz6E9H5PZO1KaVp8AHSjSDXDXjXvLr3VA=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "Black Alchemy does fantastic work! They are reliable, efficient and clearly care about their customers. I would hire them again!",
+      "time": 1779583092,
+      "translated": false
+    }
+  ],
+  "url": "https://maps.google.com/?cid=2374137001072750739",
+  "user_ratings_total": 12
+}
