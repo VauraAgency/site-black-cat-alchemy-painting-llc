@@ -76,6 +76,11 @@
   .service-detail .body { color: rgba(0,0,0,0.62); font-size: 0.95rem; }
   @media (max-width: 760px) { .service-detail-grid { grid-template-columns: 1fr; } }
 
+  .gallery-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 16px; }
+  .gallery-grid img { border-radius: 14px; width: 100%; height: 320px; object-fit: cover; }
+  .gallery-grid img:first-child { height: 320px; }
+  @media (max-width: 760px) { .gallery-grid { grid-template-columns: 1fr; } .gallery-grid img { height: 220px; } }
+
   .about-layout { display: grid; grid-template-columns: 1fr 0.9fr; gap: 48px; align-items: start; }
   .about-layout img { border-radius: 14px; aspect-ratio: 4/3; object-fit: cover; width: 100%; }
   .about-copy p { color: rgba(0,0,0,0.68); margin-bottom: 18px; max-width: 60ch; }
@@ -158,7 +163,7 @@
       </div>
     </div>
     <div class="hero-panel">
-      <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=AaVGc3ly9a7YQoKIH1rUKuODp12X7bPs3dX8ersL4Uvug1AV4liR2OzbH17FO4Toubr13B8vleIMwz_iJWIQFh8RH-yqbe0L55E3kkuoImAbHAUHit9BTk9HglMmp_r4TrvUm_Vbi1dXy4LcZpWmcWA4UpQh5fzwN5-HZHu8qCbhnnqjcSYjmhxtwkpRfDBFBpHhkxzuh9j6knkTdMAN0-Xa3c72is311it9TkvY0N_TJXAE0-h5UpI-fauqJCR0pvX9VfbnUeVBq8xBtyFVKHaUPQMHjiC4OmWhAeOADXXcuQcntT5f-RL_tUOPFEfc9iCJHp8KWG7z-71LkTNj1T2juuqnBx56SIM_bR9evDjMdiMBQwS4p8ovxHDDS14b420IziebL3Yv_BFTNE1Dv4Km4DOVL8vC3vTMR0sjaflCSGlCATxxK5m4_k_4-GbouLC_&key=AIzaSyBVt52zNoH0eoDZkXH8WoRxvtsV9ZK1Iu4" alt="Black Cat Alchemy Painting, LLC" loading="lazy">
+      <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=AaVGc3k7HW7QgejMTTu1i17wLdRcGX31G5tzGhzpYqT8C8rjFcbb37MfywPJaZcRFwCGmsPYGx6cDm_NlNrjuo41754uzrPjPYGwjxzas7Tv0H94UIFGEpkwugccZ0NARzZcUb5hKOVbrK2wtLYCoJjiXKax_FTTZJKPnPGBpBBeLYJB2xck09i0WMNaSGUEFOKn9syxl9lOfEb1GB_guF2GuCZiBbIIL9znFVJki1Bbezxv-hIc_fw4Kj4GgLHL79scwm0AJNCwAQ5Rq7veCX4Dx6jFtcr_3Mue6kd-RBPYLOeEiqV3KpLb6eup3DhCc2-7ft7gC8HZUEThwfgCFHM5G9FBN5zsvhmp-2Ydpjs5OJTxdZK-NAYpN-e6WGDSaiS88WLIE-AJu7jc3aXXFhMatr8R0krzSXg2e99Q8kFYpm1lD73guxqd2Mt6WT_JO1AS&key=AIzaSyBVt52zNoH0eoDZkXH8WoRxvtsV9ZK1Iu4" alt="Black Cat Alchemy Painting, LLC" loading="lazy">
       <div class="hero-stat"><span class="num">5★</span><span class="label">from 12 Google reviews</span></div>
       <div class="hero-panel-row"><span class="k">Address</span><span>2868 126th Ave NW, Minneapolis, MN 55448, USA</span></div>
       <div class="hero-panel-row"><span class="k">Phone</span><span>(612) 512-9197</span></div>
@@ -179,6 +184,14 @@
 <div class="service-row"><span class="name">Licensed & Insured</span><span class="blurb">Fully covered work, every job.</span></div>
 <div class="service-row"><span class="name">Same-Day Service</span><span class="blurb">Calls answered fast, no overnight wait.</span></div></div>
     </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="container">
+    <div class="gallery-grid" data-reveal><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=AaVGc3k7HW7QgejMTTu1i17wLdRcGX31G5tzGhzpYqT8C8rjFcbb37MfywPJaZcRFwCGmsPYGx6cDm_NlNrjuo41754uzrPjPYGwjxzas7Tv0H94UIFGEpkwugccZ0NARzZcUb5hKOVbrK2wtLYCoJjiXKax_FTTZJKPnPGBpBBeLYJB2xck09i0WMNaSGUEFOKn9syxl9lOfEb1GB_guF2GuCZiBbIIL9znFVJki1Bbezxv-hIc_fw4Kj4GgLHL79scwm0AJNCwAQ5Rq7veCX4Dx6jFtcr_3Mue6kd-RBPYLOeEiqV3KpLb6eup3DhCc2-7ft7gC8HZUEThwfgCFHM5G9FBN5zsvhmp-2Ydpjs5OJTxdZK-NAYpN-e6WGDSaiS88WLIE-AJu7jc3aXXFhMatr8R0krzSXg2e99Q8kFYpm1lD73guxqd2Mt6WT_JO1AS&key=AIzaSyBVt52zNoH0eoDZkXH8WoRxvtsV9ZK1Iu4" alt="Black Cat Alchemy Painting, LLC" loading="lazy">
+<img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=AaVGc3mw-drWitFB8Uak_6oIbIT4lQRtthpPLXQRfMwzvwj_71NZzGkEBkHvDP7_SsDtP6jAHgut06-ii0norX8XnUYlfoXheusgDicfcgysco9-1tKcKUr6DwhOZIK2PUUMUEQdHLKgEp20tO_h5nxuIkLOmoz-X1DvRdOfrisNEyGnBDTjPnHChnOPfuMapMKC8OnzpeFpmx9wUqAi3so8uVQxHrf6a95pVm6bwGFr6jh2ATSABhIU_pybDgztFtor7xS2AG5ILgYbdJli_Km_qqCmP4C4bQ_Qr72z7vPz1y2R81jz3H-V_ZNiiF6vYKwA3_iXHhgdvrnH0-aU0npy7oftKNcjEaeeT_a9T1ixkCVVLTQn3_oNA8azd1mh8vhx9TgssZvWKa5gX5BYfbkQCIfUtUMINgGWcTqwiA5mtNNQ7oPH7erPvLMG8IPvcq1_&key=AIzaSyBVt52zNoH0eoDZkXH8WoRxvtsV9ZK1Iu4" alt="Black Cat Alchemy Painting, LLC" loading="lazy">
+<img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=AaVGc3nAdBsSnTF9KkKLQENIJiaJk40gs_fOrFsEGTJ3mlqlVrLRtIByeQ4sPSJ8qYJ6D9EbzZ9-6CWFQBkQjLpf8dZu7k5EwE3ijvtIxD9-h4E0ycfoHIp93gAhy5b6YrWjAmw9zV7OsrkTt-98ZONJ9SIajXSR0dNmot1KNuK4gbPkTvIIdemNQV8myXoOEanyXNjwczNOn__nPfN8gOtViNF1XPLX3SN967SIza4-DoVlY8tJMvTMiqZnBLBqFPTHEk1a5fAp1GRMxmzoMmzNO1a4fnAYPspsQkfREsExDz9vfFNDcKRY4PYPdwAh8E-PhmXmaTvIUgLzSBLnxFB8m27Up6iCJFSXLsLZkDqJA_muSK6YjP62ozicC_KRN2if2CXLD097K0wEQDCXSmHGJXxK8T9CWoNUK5T7fVj35FYmVphY8zPE1F1rJattskdw&key=AIzaSyBVt52zNoH0eoDZkXH8WoRxvtsV9ZK1Iu4" alt="Black Cat Alchemy Painting, LLC" loading="lazy"></div>
   </div>
 </section>
 
